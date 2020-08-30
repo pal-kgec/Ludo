@@ -1,9 +1,3 @@
-const socket=io()
-
-socket.on('butclick',()=>{
-  console.log("updated");
-  
-})
 var dice=document.querySelector('.dice')
 var diceresult=document.querySelector('.dicepara1')
 var diceresult2=document.querySelector('.dicepara2')
